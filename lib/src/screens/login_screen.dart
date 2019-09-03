@@ -62,9 +62,7 @@ class LoginScreen extends StatelessWidget{
           child: Text('Login'),
           color: Colors.blue,
           onPressed: snapshot.hasData 
-            ? (){
-            print('Hi there!');
-              }
+            ? bloc.submit
             : null,
         );
       },
