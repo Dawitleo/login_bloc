@@ -13,6 +13,4 @@ class Provider extends InheritedWidget {
     return (context.inheritFromWidgetOfExactType(Provider) as Provider).bloc;
   }
 
-
-
 }
